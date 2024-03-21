@@ -59,6 +59,10 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="{{ url_for('auth.logout') }}">{{ _('Logout') }}</a>
             </li>
+            <!-- Dans base.html (à l'endroit approprié) -->
+
+            <li><a href="{{ url_for('main.about') }}">{{ _('About') }}</a></li>
+
             {% endif %}
           </ul>
         </div>
